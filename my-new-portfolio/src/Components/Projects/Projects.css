@@ -1,0 +1,78 @@
+.project {
+  padding: 80px 0;
+  position: relative;
+  margin-top: 10vh;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 3%;
+}
+.project h2 {
+  font-size: 7vh;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+.project h2 span {
+  color: var(--blueCard);
+  font-weight: 600;
+}
+
+.i-buttons-container .button.i-button:focus {
+  background-color: var(--gray);
+  color: var(--blueCard);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Corrigindo a propriedade grid-template-columns */
+  grid-gap: 5px;
+}
+
+.box img {
+  width: 100%; /* Alterando a largura das imagens para ocupar 100% do contêiner */
+  border-radius: 20px;
+}
+
+.box {
+  padding: 10px;
+}
+
+.proj-imgbx::before {
+  content: "";
+  background-color: var(--gray);
+  opacity: 0.85;
+  position: absolute;
+  width: 40%;
+  border-radius: 5%;
+  height: 0;
+  transition: 0.5s ease-in-out;
+}
+.proj-imgbx:hover::before {
+  height: 100%;
+}
+
+.proj-txtx {
+  position: absolute;
+  text-align: center;
+  color: var(--blueCard);
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  width: 100%;
+}
+.proj-imgbx:hover .proj-txtx {
+  top: 50%;
+  opacity: 1;
+}
+.proj-txtx h4 {
+  font-size: 4vh;
+  font-weight: 600;
+  letter-spacing: -2px;
+  line-height: 1.1em;
+}
+.proj-txtx span {
+  font-weight: 500;
+  font-size: 2vh;
+  letter-spacing: 1px;
+}
