@@ -1,7 +1,7 @@
 import Navbar from "./Components//Navbar/Navbar"
 import './App.css'
 import Intro from "./Components/Navbar/Intro/Intro"
-// import About from "./Components//About/About"
+import About from "./Components/About/About"
 // import Experience from "./Components//Experience/Experience"
 // import Portfolio from "./Components/Portfolio/Portfolio";
 
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Intro />
-      {/* <About /> */}
+      <About />
       {/* <Experience /> */}
       {/* <Portfolio /> */}
     </div>
