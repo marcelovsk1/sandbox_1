@@ -1,5 +1,5 @@
 .project {
-  padding: 80px 0;
+  padding: 60px 0;
   position: relative;
   margin-top: 10vh;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -9,6 +9,7 @@
   font-size: 7vh;
   font-weight: 600;
   letter-spacing: -2px;
+  /* padding-top: -20vh; */
 }
 
 .project h2 span {
@@ -19,60 +20,69 @@
 .i-buttons-container .button.i-button:focus {
   background-color: var(--gray);
   color: var(--blueCard);
+  /* margin-top: 10vh; */
 }
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Corrigindo a propriedade grid-template-columns */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 5px;
 }
 
 .box img {
-  width: 100%; /* Alterando a largura das imagens para ocupar 100% do contêiner */
+  width: 100%;
   border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .box {
-  padding: 10px;
+  position: relative;
+  margin: 2vh;
 }
 
-.proj-imgbx::before {
+.box::before {
   content: "";
-  background-color: var(--gray);
-  opacity: 0.85;
+  background-color: gray;
+  opacity: 0;
   position: absolute;
-  width: 40%;
-  border-radius: 5%;
-  height: 0;
-  transition: 0.5s ease-in-out;
-}
-.proj-imgbx:hover::before {
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.box:hover::before {
+  opacity: 0.85;
 }
 
 .proj-txtx {
   position: absolute;
   text-align: center;
   color: var(--blueCard);
-  top: 65%;
+  top: 50%; /* Mantendo o texto no centro */
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: 0.5s ease-in-out;
-  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0; /* Inicialmente, o texto estará invisível */
   width: 100%;
 }
+
 .proj-imgbx:hover .proj-txtx {
-  top: 50%;
-  opacity: 1;
+  top: 50%; /* Mantendo o texto no centro durante o hover */
+  opacity: 1; /* Tornando o texto visível durante o hover */
 }
+
 .proj-txtx h4 {
-  font-size: 4vh;
+  font-size: 2.5vh; /* Ajustando o tamanho do título */
   font-weight: 600;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   line-height: 1.1em;
 }
+
 .proj-txtx span {
   font-weight: 500;
-  font-size: 2vh;
+  font-size: 1.5vh; /* Ajustando o tamanho do subtitulo */
   letter-spacing: 1px;
 }
