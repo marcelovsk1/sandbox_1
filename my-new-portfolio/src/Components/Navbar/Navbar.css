@@ -1,0 +1,76 @@
+.n-wrapper {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.n-left {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+
+.n-right {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.name {
+  font-size: 35px;
+}
+
+.first-name {
+  color: var(--black);
+  font-weight: 600;
+}
+
+.last-name {
+  color: #007AFF;
+  font-weight: 600;
+}
+
+
+.n-list {
+  flex: 10;
+  font-size: 25px;
+  color: var(--black);
+}
+
+.n-list>ul {
+  display: flex;
+  gap: 3rem;
+  margin-right: 4rem;
+}
+
+.n-list > ul > li {
+  transition: background-color 0.3s ease;
+}
+
+.n-list > ul > li:hover {
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(to right,
+  #ef3c36, #FFE983, #8bef2d , #007AFF, #9c48e5);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 300ms ease;
+}
+
+.n-list > ul > li:hover {
+  transform: scale(1.1); /* Aumenta ligeiramente o tamanho no hover */
+}
+
+.button:hover {
+  background-color: #0160c5;
+  cursor: pointer;
+}
+
+.button-secondary:hover {
+  background-color: #e8eaeb;
+  cursor: pointer;
+}
