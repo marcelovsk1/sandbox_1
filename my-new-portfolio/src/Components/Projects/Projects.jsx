@@ -15,6 +15,8 @@ import socialmedia from "../../img/socialmedia.png"
 import gameofcodesImg from "../../img/game_of_codes.png";
 import adidasoriginals from "../../img/adidas.png";
 import scraper from "../../img/scraper.png"
+// Games
+import box from "../../img/box.png"
 
 const Projects = () => {
   const [activeTab, setActiveTab] = useState("first");
@@ -72,14 +74,9 @@ const Projects = () => {
 
   const gamesProjects = [
     {
-      title: "Game Project 1",
+      title: "Box Rumble",
       description: "Description of Game Project 1",
-      imgUrl: "gameProject1Img.jpg"
-    },
-    {
-      title: "Game Project 2",
-      description: "Description of Game Project 2",
-      imgUrl: "gameProject2Img.jpg"
+      imgUrl: box
     }
   ];
 
