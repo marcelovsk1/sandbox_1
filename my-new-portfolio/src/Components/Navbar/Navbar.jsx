@@ -16,12 +16,12 @@ const Navbar = () => {
           <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li>Contact</li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
-        {/* <button className="button"> */}
-          {/* Contact Me */}
-        {/* </button> */}
+        {/* <button className="button">
+          Contact Me
+        </button> */}
       </div>
     </div>
   )
