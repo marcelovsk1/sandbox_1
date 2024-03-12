@@ -38,6 +38,13 @@
   flex: 10;
   font-size: 25px;
   color: var(--black);
+  text-decoration: none;
+}
+
+.n-list li a {
+  /* Adicione seus estilos aqui */
+  color: var(--black); /* Cor do texto */
+  text-decoration: none; /* Remove a decoração de texto padrão */
 }
 
 .n-list>ul {
