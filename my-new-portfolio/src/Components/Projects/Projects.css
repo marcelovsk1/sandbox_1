@@ -1,5 +1,5 @@
 .project {
-  padding: 60px 0;
+  padding: 20px 0;
   position: relative;
   margin-top: 10vh;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -9,6 +9,7 @@
   font-size: 7vh;
   font-weight: 600;
   letter-spacing: -2px;
+  margin-bottom: 5vh;
   /* padding-top: -20vh; */
 }
 
@@ -20,6 +21,7 @@
 .i-buttons-container .button.i-button:focus {
   background-color: var(--gray);
   color: var(--blueCard);
+  /* margin-bottom: 10vh; */
   /* margin-top: 10vh; */
 }
 
@@ -27,6 +29,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 5px;
+  margin: 2vh;
 }
 
 .box img {
