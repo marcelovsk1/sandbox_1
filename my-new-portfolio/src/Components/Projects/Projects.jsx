@@ -4,20 +4,49 @@ import { ProjectCard } from './ProjectsCard';
 import TrackVisibility from 'react-visibility-sensor';
 import './Projects.css';
 
+// iOS
+import netflixapp from "../../img/netflixapp.png"
+import weatherApp from "../../img/weatherapp.png"
+import newsapp from "../../img/newsapp.png"
+import guessgame from "../../img/guessgame.png"
+import mensagerapp from "../../img/mensagerapp.png"
+import socialmedia from "../../img/socialmedia.png"
+// Fullstack
 import gameofcodesImg from "../../img/gameofcodes.png";
-import weatherApp from "../../img/iWeather.png"
+import adidasoriginals from "../../img/adidasoriginals.png";
+import scraper from "../../img/scraper.png"
 
 const Projects = () => {
   const [activeTab, setActiveTab] = useState("first");
 
   const iosProjects = [
     {
-      title: "iOS Project 1",
+      title: "Netflix Clone",
       description: "Description of iOS Project 1",
-      imgUrl: gameofcodesImg
+      imgUrl: netflixapp
     },
     {
-      title: "iOS Project 2",
+      title: "News App",
+      description: "Description of iOS Project 2",
+      imgUrl: newsapp
+    },
+    {
+      title: "Mensager App",
+      description: "Description of iOS Project 2",
+      imgUrl: mensagerapp
+    },
+    {
+      title: "Social Media Clone App",
+      description: "Description of iOS Project 2",
+      imgUrl: socialmedia
+    },
+    {
+      title: "Guess Multiplayer Game",
+      description: "Description of iOS Project 2",
+      imgUrl: guessgame
+    },
+    {
+      title: "Weather App",
       description: "Description of iOS Project 2",
       imgUrl: weatherApp
     }
@@ -25,14 +54,19 @@ const Projects = () => {
 
   const fullStackProjects = [
     {
+      title: "Scraper Bot",
+      description: "Description of Full Stack Project 1",
+      imgUrl: scraper
+    },
+    {
       title: "Full Stack Project 1",
       description: "Description of Full Stack Project 1",
-      imgUrl: weatherApp
+      imgUrl: gameofcodesImg
     },
     {
       title: "Full Stack Project 2",
       description: "Description of Full Stack Project 2",
-      imgUrl: "fullStackProject2Img.jpg"
+      imgUrl: adidasoriginals
     }
   ];
 
