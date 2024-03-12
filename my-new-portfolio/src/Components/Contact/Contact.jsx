@@ -3,11 +3,11 @@ import './Contact.css'
 
 const Contact = () => {
   return (
+  <section className='contact-container' id='contact'>
    <div className="contact-form">
     <div className="w-left">
       <div className="awesome">
-        <span>Get in touch</span>
-        <span>Contact me</span>
+        <h2>Contact <span>me</span></h2>
         <div className="blur s-blurl"
         ></div>
 
@@ -22,6 +22,7 @@ const Contact = () => {
       </div>
     </div>
    </div>
+  </section>
   )
 }
 
