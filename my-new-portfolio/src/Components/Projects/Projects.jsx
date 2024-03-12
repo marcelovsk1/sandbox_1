@@ -12,8 +12,8 @@ import guessgame from "../../img/guessgame.png"
 import mensagerapp from "../../img/mensagerapp.png"
 import socialmedia from "../../img/socialmedia.png"
 // Fullstack
-import gameofcodesImg from "../../img/gameofcodes.png";
-import adidasoriginals from "../../img/adidasoriginals.png";
+import gameofcodesImg from "../../img/game_of_codes.png";
+import adidasoriginals from "../../img/adidas.png";
 import scraper from "../../img/scraper.png"
 
 const Projects = () => {
