@@ -85,12 +85,39 @@
   font-weight: 600;
   letter-spacing: -1px;
   line-height: 1.1em;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 .proj-txtx span {
   font-weight: 500;
-  font-size: 1.5vh;
+  font-size: 1.3vh;
   letter-spacing: 1px;
   margin-top: 10px;
+  margin: 15px;
+}
+
+.box-rumble-img {
+  width: 200px;
+  height: auto;
+}
+
+
+.section {
+  margin-top: 20px;
+}
+
+a.button.i-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+a.button.i-button:hover {
+  background-color: #0056b3;
 }

@@ -10,7 +10,7 @@ export const ProjectCard = ({ title, description, imgUrl, link }) => {
           <span>{description}</span>
           <div className='section'>
             <a href={link} className="button i-button">GitHub</a>
-            {title === "Game of Codes" && ( // Verifica se o título é "Game of Codes"
+            {title === "Game of Codes" && (
               <a href="https://www.game-of-codes.pro/" className="button i-button">Live Demo</a>
             )}
           </div>

@@ -25,66 +25,75 @@ const Projects = () => {
   const iosProjects = [
     {
       title: "Netflix Clone",
-      description: "Description of iOS Project 1",
+      description: "A Netflix clone developed in Objective-C, featuring sections for browsing movies and TV shows",
       imgUrl: netflixapp,
       link: "https://github.com/marcelovsk1/netflix-app-clone"
     },
     {
       title: "News App",
-      description: "Description of iOS Project 2",
-      imgUrl: newsapp
+      description: "A Swift-based news application leveraging Firebase and an API for its development",
+      imgUrl: newsapp,
+      link: "https://github.com/marcelovsk1/NewsApp"
     },
     {
       title: "Mensager App",
-      description: "Description of iOS Project 2",
-      imgUrl: mensagerapp
+      description: "A messaging platform in Swift, that allows users to send and receive messages instantly",
+      imgUrl: mensagerapp,
+      link: "https://github.com/marcelovsk1/message-app1/tree/master"
     },
     {
       title: "Social Media Clone",
-      description: "Description of iOS Project 2",
-      imgUrl: socialmedia
+      description: "Swift application that replicates the core features of an existing platform for photos",
+      imgUrl: socialmedia,
+      link: "https://github.com/marcelovsk1/SocialMediaClone"
     },
     {
-      title: "Guess Multiplayer Game",
-      description: "Description of iOS Project 2",
-      imgUrl: guessgame
+      title: "Guess PvP Game",
+      description: "A multiplayer guessing game where players compete to correctly identify doodles",
+      imgUrl: guessgame,
+      link: "https://github.com/marcelovsk1/guess-multiplayer-game"
     },
     {
       title: "Weather App",
-      description: "Description of iOS Project 2",
-      imgUrl: weatherApp
+      description: "Weather App in Swift, that fetches weather data from an API and presents it to users",
+      imgUrl: weatherApp,
+      link: "https://github.com/marcelovsk1/SwiftWeatherApp"
     }
   ];
 
   const fullStackProjects = [
     {
       title: "Scraper Bot",
-      description: "Description of Full Stack Project 1",
-      imgUrl: scraper
+      description: "An application that automates web data collection through scraping techniques",
+      imgUrl: scraper,
+      link: "https://github.com/marcelovsk1/scraper-events"
     },
     {
       title: "Game of Codes",
-      description: "Description of Full Stack Project 1",
+      description: "A PvP game in Rails and JS, designed to introduce coding to beginners through a game quiz format",
       imgUrl: gameofcodesImg,
       link: "https://github.com/KittySou/game-of-codes"
     },
     {
-      title: "Adidas Originals Landing Page",
-      description: "Description of Full Stack Project 2",
-      imgUrl: adidasoriginals
+      title: "Originals Landing Page",
+      description: "A concept landing page for Adidas Originals",
+      imgUrl: adidasoriginals,
+      link: "https://github.com/marcelovsk1/rct-4"
     },
     {
       title: "My Portfolio",
-      description: "Description of Full Stack Project 2",
-      imgUrl: portfolio
+      description: "My portfolio, constructed using React JS.",
+      imgUrl: portfolio,
+      link: "https://github.com/marcelovsk1/my-new-portfolio"
     }
   ];
 
   const gamesProjects = [
     {
       title: "Box Rumble",
-      description: "Description of Game Project 1",
-      imgUrl: box
+      description: "My first game project in Unity, just for fun",
+      imgUrl: box,
+      link: "https://github.com/marcelovsk1/BoxRumble"
     }
   ];
 
@@ -98,7 +107,7 @@ const Projects = () => {
       case "third":
         return gamesProjects;
       default:
-        return iosProjects; // Define uma guia padrão
+        return iosProjects;
     }
   };
 
