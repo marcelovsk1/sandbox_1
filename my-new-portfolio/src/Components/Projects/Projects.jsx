@@ -15,6 +15,7 @@ import socialmedia from "../../img/socialmedia.png"
 import gameofcodesImg from "../../img/game_of_codes.png";
 import adidasoriginals from "../../img/adidas.png";
 import scraper from "../../img/scraper.png"
+import portfolio from "../../img/portfolio.png"
 // Games
 import box from "../../img/box.png"
 
@@ -25,7 +26,8 @@ const Projects = () => {
     {
       title: "Netflix Clone",
       description: "Description of iOS Project 1",
-      imgUrl: netflixapp
+      imgUrl: netflixapp,
+      link: "https://github.com/marcelovsk1/netflix-app-clone"
     },
     {
       title: "News App",
@@ -38,7 +40,7 @@ const Projects = () => {
       imgUrl: mensagerapp
     },
     {
-      title: "Social Media Clone App",
+      title: "Social Media Clone",
       description: "Description of iOS Project 2",
       imgUrl: socialmedia
     },
@@ -61,14 +63,20 @@ const Projects = () => {
       imgUrl: scraper
     },
     {
-      title: "Full Stack Project 1",
+      title: "Game of Codes",
       description: "Description of Full Stack Project 1",
-      imgUrl: gameofcodesImg
+      imgUrl: gameofcodesImg,
+      link: "https://github.com/KittySou/game-of-codes"
     },
     {
-      title: "Full Stack Project 2",
+      title: "Adidas Originals Landing Page",
       description: "Description of Full Stack Project 2",
       imgUrl: adidasoriginals
+    },
+    {
+      title: "My Portfolio",
+      description: "Description of Full Stack Project 2",
+      imgUrl: portfolio
     }
   ];
 
