@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-  <footer>
+  <footer className='footer-container'>
     <nav>
       <div className="nav-links-container">
       <div className="n-lista">
@@ -12,11 +12,11 @@ const Footer = () => {
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-          </ul>
+        </ul>
+        <p className='copy'>Copyright &#169; 2024 Marcelo Amaral</p>
       </div>
       </div>
     </nav>
-    <p>Copyright &#169; 2024 Marcelo Amaral</p>
   </footer>
 
   )
