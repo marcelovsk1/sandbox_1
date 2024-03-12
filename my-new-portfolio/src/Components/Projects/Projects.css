@@ -45,7 +45,7 @@
 
 .box::before {
   content: "";
-  background-color: gray;
+  background-color: rgb(255, 255, 255);
   opacity: 0;
   position: absolute;
   border-radius: 20px;
@@ -60,6 +60,10 @@
   opacity: 0.85;
 }
 
+.box {
+  position: relative; /* Adiciona posição relativa para facilitar o posicionamento absoluto dos elementos filhos */
+}
+
 .proj-txtx {
   position: absolute;
   text-align: center;
@@ -72,20 +76,21 @@
   width: 100%;
 }
 
-.proj-imgbx:hover .proj-txtx {
-  top: 50%; /* Mantendo o texto no centro durante o hover */
-  opacity: 1; /* Tornando o texto visível durante o hover */
+.box:hover .proj-txtx {
+  opacity: 1;
 }
 
 .proj-txtx h4 {
-  font-size: 2.5vh; /* Ajustando o tamanho do título */
+  font-size: 32px;
   font-weight: 600;
   letter-spacing: -1px;
   line-height: 1.1em;
+  margin-bottom: 10px;
 }
 
 .proj-txtx span {
   font-weight: 500;
-  font-size: 1.5vh; /* Ajustando o tamanho do subtitulo */
+  font-size: 1.5vh;
   letter-spacing: 1px;
+  margin-top: 10px;
 }
