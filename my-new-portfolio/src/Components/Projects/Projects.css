@@ -2,7 +2,7 @@
   padding: 20px 0;
   position: relative;
   margin-top: 10vh;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 3%;
 }
 .project h2 {
@@ -10,7 +10,6 @@
   font-weight: 600;
   letter-spacing: -2px;
   margin-bottom: 5vh;
-  /* padding-top: -20vh; */
 }
 
 .project h2 span {
@@ -21,8 +20,6 @@
 .i-buttons-container .button.i-button:focus {
   background-color: var(--gray);
   color: var(--blueCard);
-  /* margin-bottom: 10vh; */
-  /* margin-top: 10vh; */
 }
 
 .wrapper {
@@ -35,7 +32,7 @@
 .box img {
   width: 100%;
   border-radius: 20px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .box {
@@ -61,7 +58,7 @@
 }
 
 .box {
-  position: relative; /* Adiciona posição relativa para facilitar o posicionamento absoluto dos elementos filhos */
+  position: relative;
 }
 
 .proj-txtx {
@@ -72,7 +69,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   transition: opacity 0.5s ease-in-out;
-  opacity: 0; /* Inicialmente, o texto estará invisível */
+  opacity: 0;
   width: 100%;
 }
 
@@ -121,3 +118,12 @@ a.button.i-button {
 a.button.i-button:hover {
   background-color: #0056b3;
 }
+
+/* .project-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+} */

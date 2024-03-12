@@ -6,7 +6,7 @@ import iOS from '../../../src/img/ios_2.png'
 
 const About = () => {
   return (
-    <section className='styles_container'>
+    <section className='styles_container' id='about'>
       <h2 className='styles_title'>About <span>Me</span></h2>
       <div className='styles_content'>
       <div className="pic_container">
