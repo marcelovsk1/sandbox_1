@@ -100,3 +100,75 @@
   margin-top: 8rem;
   padding-right: 6rem;
 }
+
+@media screen and (max-width: 600px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .i-left {
+    order: 2;
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 15vh;
+  }
+
+  .i-right {
+    order: 1;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    height: 100%;
+    margin-top: 8rem;
+    padding-left: 10px;
+  }
+
+  .i-name>:nth-child(1) {
+    font-size: 24px;
+  }
+
+  .i-name>:nth-child(2) {
+    font-size: 36px;
+  }
+
+  .i-name>:nth-child(2) {
+    font-size: 36px;
+  }
+
+  .i-name>:nth-child(3) {
+    font-size: 26px;
+  }
+
+  .role {
+    font-size: 1px;
+  }
+
+  .i-buttons-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .i-button {
+    width: 8rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+    transition: transform 0.3s ease, background-color 0.3s ease, border 0.3s ease;
+    align-items: center;
+    font-size: 14px;
+    padding-bottom: 5vh;
+  }
+
+  .i-name {
+    margin-top: -10vh;
+  }
+
+  .i-right img {
+    width: 20vh;
+    height: auto;
+    padding-left: 10vh;
+  }
+}
